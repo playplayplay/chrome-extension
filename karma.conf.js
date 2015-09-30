@@ -21,7 +21,7 @@ module.exports = function(config) {
       ]
     },
     babelPreprocessor: {},
-    reporters: ['progress'],
+    reporters: ['mocha'],
     browsers: ['PhantomJS'],
     singleRun: true
   });
